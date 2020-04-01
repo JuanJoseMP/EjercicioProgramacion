@@ -51,7 +51,6 @@ namespace Ejercicio_programacion_grupo
 
                 Console.Write("Escribe la edad : ");
                 datos[i].ayoPublicacion = Convert.ToInt32(Console.ReadLine());
-                
 
 
 
