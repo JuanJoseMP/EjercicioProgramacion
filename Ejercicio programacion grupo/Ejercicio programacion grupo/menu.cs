@@ -6,30 +6,32 @@ namespace Ejercicio_programacion_grupo
 {
     class menu
     {
-        static void menu()
-        {
+       public static void Menu()
+       {
             int menu = 0;
 
-            switch(menu)
+            do
             {
+                Console.WriteLine("[1].Añadir un dato");
+                Console.WriteLine("[2].Mostrar todos los datos");
+                Console.WriteLine("[3].Mostrar dato a partir del tamaño");
+                Console.WriteLine("[4].Buscar parialmente un dato");
+                Console.WriteLine("[5]. Salir del programa");
 
-                case 1:
 
-                    Console.WriteLine("Añadir un dato");
-                    string añadir = Console.ReadLine();
 
-                    break;
 
-                case 2:
-                    Console.WriteLine("Mostrar un dato un dato");
-                    string añadir = Console.ReadLine();
 
-                    break;
-                
 
             }
 
+            while (menu != 5);
+                {
+                    Console.WriteLine("Saliendo");
+                }
         }
 
     }
 }
+
+
