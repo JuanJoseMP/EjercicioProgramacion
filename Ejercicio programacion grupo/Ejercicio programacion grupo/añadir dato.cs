@@ -6,6 +6,6 @@ namespace Ejercicio_programacion_grupo
 {
     class añadir_dato
     {
-
+        /* Comentario */
     }
 }
