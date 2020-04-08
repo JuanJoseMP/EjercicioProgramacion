@@ -5,7 +5,7 @@ using System.Text;
 namespace Ejercicio_programacion_grupo
 {
 
-    struct Datos
+    struct datos
     {
         public string nombre;
         public string autor;
