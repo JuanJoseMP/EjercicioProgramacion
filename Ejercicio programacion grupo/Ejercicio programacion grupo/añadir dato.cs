@@ -19,7 +19,7 @@ namespace Ejercicio_programacion_grupo
 
         public static void AñadirDato()
         {
-            Datos[] datos = new Datos[50];
+            datos[] datos = new datos[50];
             int contador = 0;
             int total = 50;
 
