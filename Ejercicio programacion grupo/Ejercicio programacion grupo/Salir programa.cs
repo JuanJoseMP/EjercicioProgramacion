@@ -6,6 +6,11 @@ namespace Ejercicio_programacion_grupo
 {
     class Salir_programa
     {
+        public static void Salir()
+        { 
 
+         Console.WriteLine("Gracias por participar");
+
+        }
     }
 }
