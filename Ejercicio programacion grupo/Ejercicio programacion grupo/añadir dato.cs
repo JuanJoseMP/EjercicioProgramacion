@@ -31,7 +31,7 @@ namespace Ejercicio_programacion_grupo
 
                 Console.WriteLine("Fichero {0}", contador + 1);
 
-                Console.Write("Escribe el nombre : ");
+                Console.WriteLine("Escribe el nombre : ");
                 datos[i].nombre = Console.ReadLine();
 
                 if (datos[i].nombre == "")
@@ -39,17 +39,17 @@ namespace Ejercicio_programacion_grupo
                     break;
                 }
 
-                Console.Write("Escribe la direccion : ");
+                Console.WriteLine("Escribe el autor : ");
                 datos[i].autor = Console.ReadLine();
 
 
 
-                Console.Write("Escribe el numero de telefono : ");
+                Console.WriteLine("Escribe el numero de paginas : ");
                 datos[i].paginas = Convert.ToInt32(Console.ReadLine());
 
 
 
-                Console.Write("Escribe la edad : ");
+                Console.WriteLine("Escribe el año de publicación : ");
                 datos[i].ayoPublicacion = Convert.ToInt32(Console.ReadLine());
                 
 
