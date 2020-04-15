@@ -27,9 +27,9 @@ namespace Ejercicio_programacion_grupo
 
                 Console.WriteLine("Escribe el numero de paginas : ");
                 datos[contador].paginas = Convert.ToInt32(Console.ReadLine());
-            if (datos[contador].ayoPublicacion < 1)
+            if (datos[contador].paginas < 1)
             {
-                datos[contador].ayoPublicacion = 1;
+                datos[contador].paginas = 1;
                 Console.WriteLine("No es posible tener un libro de 0 páginas o negativas,se cambia el nº automáticamente.");
             }
 

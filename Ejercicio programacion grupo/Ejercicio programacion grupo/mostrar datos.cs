@@ -11,7 +11,7 @@ namespace Ejercicio_programacion_grupo
             for(int i = 0; i < contador; i++)
             {
                 Console.WriteLine();
-                Console.WriteLine("Fichero {0}",contador+1);
+                Console.WriteLine("Fichero {0}",i+1);
                 Console.WriteLine("");
                 Console.WriteLine("Nombre: {0}", datos[i].nombre);
                 Console.WriteLine("Autor: {0}", datos[i].autor);
