@@ -9,6 +9,7 @@ namespace Ejercicio_programacion_grupo
        public static void Menu()
        {
             int menu = 0;
+            menu = Convert.ToInt32(Console.ReadLine());
 
             do
             {
@@ -16,7 +17,7 @@ namespace Ejercicio_programacion_grupo
                 Console.WriteLine("[2].Mostrar todos los datos");
                 Console.WriteLine("[3].Mostrar dato a partir del tamaño");
                 Console.WriteLine("[4].Buscar parialmente un dato");
-                Console.WriteLine("[5]. Salir del programa");
+                Console.WriteLine("[5].Salir del programa");
 
                 switch (menu)
                 {
@@ -40,8 +41,8 @@ namespace Ejercicio_programacion_grupo
                         break;
 
                     case 5:
-                        Salir_programa.Salir();
 
+                        Salir_programa.Salir();
 
                         break;
 
