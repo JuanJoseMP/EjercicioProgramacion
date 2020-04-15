@@ -6,7 +6,7 @@ namespace Ejercicio_programacion_grupo
 {
     class mostrar_datos
     {
-        public static void MostrarDatos(int contador ,ref datos[] datos)
+        public void MostrarDatos(int contador ,ref datos[] datos)
         {
             for(int i = 0; i < contador; i++)
             {

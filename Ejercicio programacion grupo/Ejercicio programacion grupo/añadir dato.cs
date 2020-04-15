@@ -9,50 +9,45 @@ namespace Ejercicio_programacion_grupo
     {
         
         
-        public void AñadirDato(ref datos[] datos)
+        public void AñadirDato(ref int contador,ref datos[] datos)
         {
-<<<<<<< HEAD
-            datos[] datos = new datos[50];
-            int contador = 0;
-=======
->>>>>>> bd1da4e4ef57c26efe7fc93bf040ebd24be551b5
-            int total = 50;
-            int contador = 0;
-            for (int i = 0; i < total; i++)
-            {
-                Console.WriteLine();
 
-                Console.WriteLine("Escriba los datos cuando pulse INTRO sin escribir ningun nombre se volvera a abrir el menu \n");
 
                 Console.WriteLine("Fichero {0}", contador + 1);
 
                 Console.WriteLine("Escribe el nombre : ");
-                datos[i].nombre = Console.ReadLine();
+                datos[contador].nombre = Console.ReadLine();
 
-                if (datos[i].nombre == "")
-                {
-                    break;
-                }
+
 
                 Console.WriteLine("Escribe el autor : ");
-                datos[i].autor = Console.ReadLine();
+                datos[contador].autor = Console.ReadLine();
 
 
 
                 Console.WriteLine("Escribe el numero de paginas : ");
-                datos[i].paginas = Convert.ToInt32(Console.ReadLine());
+                datos[contador].paginas = Convert.ToInt32(Console.ReadLine());
+            if (datos[contador].ayoPublicacion < 1)
+            {
+                datos[contador].ayoPublicacion = 1;
+                Console.WriteLine("No es posible tener un libro de 0 páginas o negativas,se cambia el nº automáticamente.");
+            }
 
 
-
-                Console.WriteLine("Escribe el año de publicación : ");
-                datos[i].ayoPublicacion = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Escribe el año de publicación : ");
+                datos[contador].ayoPublicacion = Convert.ToInt32(Console.ReadLine());
+            if (datos[contador].ayoPublicacion>2020)
+            {
+                datos[contador].ayoPublicacion = 2020;
+                Console.WriteLine("No es posible haber publicado un libro en el futuro,se cambia la fecha automáticamente.");
+            }
 
 
 
                 contador++;
 
 
-            }
+
 
 
 

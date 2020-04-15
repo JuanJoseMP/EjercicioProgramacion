@@ -6,7 +6,7 @@ namespace Ejercicio_programacion_grupo
 {
     class tamaño_datos
     {
-        public static void tamañoDatos(int contador, ref datos[] datos)
+        public void tamañoDatos(int contador, ref datos[] datos)
         {
             Console.WriteLine();
             Console.WriteLine("Para buscar un dato por su tamaño, introduzca un número mínimo de páginas.");
