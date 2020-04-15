@@ -22,7 +22,8 @@ namespace Ejercicio_programacion_grupo
                 {
                     case 1:
 
-                       
+                        añadir_dato.AñadirDato();
+
 
                         break;
 
@@ -35,6 +36,12 @@ namespace Ejercicio_programacion_grupo
                         break;
 
                     case 4:
+
+                        break;
+
+                    case 5:
+                        Salir_programa.Salir();
+
 
                         break;
 
