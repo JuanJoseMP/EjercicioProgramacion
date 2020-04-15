@@ -16,7 +16,10 @@ namespace Ejercicio_programacion_grupo
                     {
                         Console.Write("Escriba el nombre del autor: ");
                         string name = Console.ReadLine();
-                        for (int i=0;i<)
+                        for (int i=0;i<contador;i++)
+                        {
+
+                        }
                     }
             }
         }

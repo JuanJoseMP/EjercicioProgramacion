@@ -5,24 +5,19 @@ using System.Text;
 namespace Ejercicio_programacion_grupo
 {
 
-    struct datos
-    {
-        public string nombre;
-        public string autor;
-        public int paginas;
-        public int ayoPublicacion;
-
-    }
-
     class añadir_dato
     {
-
-        public static void AñadirDato()
+        
+        
+        public void AñadirDato(ref datos[] datos)
         {
+<<<<<<< HEAD
             datos[] datos = new datos[50];
             int contador = 0;
+=======
+>>>>>>> bd1da4e4ef57c26efe7fc93bf040ebd24be551b5
             int total = 50;
-
+            int contador = 0;
             for (int i = 0; i < total; i++)
             {
                 Console.WriteLine();
