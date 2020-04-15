@@ -16,9 +16,6 @@ namespace Ejercicio_programacion_grupo
 
     class añadir_dato
     {
-<<<<<<< HEAD
-        /* Comentario */
-=======
 
         public static void AñadirDato()
         {
@@ -65,6 +62,5 @@ namespace Ejercicio_programacion_grupo
 
 
         }
->>>>>>> fc5495e6ef898a2a39a6519deba8ee49d129288e
     }
 }
