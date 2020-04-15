@@ -4,23 +4,29 @@ using System.Text;
 
 namespace Ejercicio_programacion_grupo
 {
-    public struct Datos
+    public struct datos
     {
         public string nombre;
         public string autor;
         public int paginas;
         public int ayoPublicacion;
 
+    }
 
-        class programa_principal
-        {
+    class programa_principal
+    {
+       
 
-     
-        }
-        static void Main(string[] args)
+        
+        public static void Main(string[] args)
         {
+            
+            
             menu.Menu();
 
         }
+
     }
+        
+   
 }
