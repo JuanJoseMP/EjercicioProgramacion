@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Danraove\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\JJInfernal\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danraove\\Desktop\\RPMI\\Tema 5 Metodos\\Ejercicio programacion grupo\\Ejercicio programacion grupo\\Ejercicio programacion grupo.csproj",
+      "projectUniqueName": "D:\\Users\\JJInfernal\\Documents\\GitHub\\EjercicioProgramacion\\Ejercicio programacion grupo\\Ejercicio programacion grupo\\Ejercicio programacion grupo.csproj",
       "projectName": "Ejercicio programacion grupo",
-      "projectPath": "C:\\Users\\Danraove\\Desktop\\RPMI\\Tema 5 Metodos\\Ejercicio programacion grupo\\Ejercicio programacion grupo\\Ejercicio programacion grupo.csproj",
-      "packagesPath": "C:\\Users\\Danraove\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danraove\\Desktop\\RPMI\\Tema 5 Metodos\\Ejercicio programacion grupo\\Ejercicio programacion grupo\\obj\\",
+      "projectPath": "D:\\Users\\JJInfernal\\Documents\\GitHub\\EjercicioProgramacion\\Ejercicio programacion grupo\\Ejercicio programacion grupo\\Ejercicio programacion grupo.csproj",
+      "packagesPath": "C:\\Users\\JJInfernal\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\JJInfernal\\Documents\\GitHub\\EjercicioProgramacion\\Ejercicio programacion grupo\\Ejercicio programacion grupo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Danraove\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JJInfernal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

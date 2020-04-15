@@ -51,7 +51,6 @@ namespace Ejercicio_programacion_grupo
 
                 Console.WriteLine("Escribe el año de publicación : ");
                 datos[i].ayoPublicacion = Convert.ToInt32(Console.ReadLine());
-                
 
 
 
